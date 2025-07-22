@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="ancCourseManagement" prefHeight="490.0" prefWidth="968.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.ijse.sams.sams.Controller.CourseController">
+   <children>
+      <Label alignment="CENTER" prefHeight="62.0" prefWidth="968.0" text="Course Management">
+         <font>
+            <Font name="System Bold" size="38.0" />
+         </font>
+      </Label>
+      <Button layoutX="2.0" layoutY="123.0" mnemonicParsing="false" onAction="#goAddPage" prefHeight="52.0" prefWidth="238.0" text="ADD">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Button>
+      <Button layoutX="11.0" layoutY="219.0" mnemonicParsing="false" onAction="#goCourseInformation" prefHeight="52.0" prefWidth="471.0" text="Course Information">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Button>
+      <Button layoutX="721.0" layoutY="123.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="238.0" text="VIEW">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Button>
+      <Button layoutX="484.0" layoutY="123.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="238.0" text="DELETE">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Button>
+      <Button layoutX="240.0" layoutY="123.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="238.0" text="UPGRADE">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Button>
+      <Button layoutX="482.0" layoutY="219.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="471.0" text="Back to Main">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
